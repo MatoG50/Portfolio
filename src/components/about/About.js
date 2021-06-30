@@ -8,7 +8,7 @@ const About = () => {
       </div>
       <div className='abt-msg'>
         <p>
-          Hello. My name is Martin Githinji Kung'u. <br />
+          Hello. My name is <b>Martin Githinji Kung'u</b>. <br />
           I'm a Front-end Developer based in Nairobi, Kenya.
           <br /> I love solving problems through code and learning new skills.
           <br />I am passionate about great user experience and user interface

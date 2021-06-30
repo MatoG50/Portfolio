@@ -6,13 +6,16 @@
 }
 .abt {
   margin: 159px 164px 0 277px;
+  width: 30%;
 }
 .abt-msg {
-  margin-top: 137px;
+  margin-top: 87px;
+  width: 70%;
 }
 .abt-msg p {
-  font-size: 19px;
+  font-size: 20px;
   color: white;
+  line-height: 1.88;
 }
 .underline {
   width: 115px;
