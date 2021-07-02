@@ -1,10 +1,10 @@
-import jsImg from './cards/Group 11.jpg';
-import reactImg from './cards/Group 12.jpg';
-import reduxImg from './cards/Group 14.jpg';
-import adobeImg from './cards/Group 13.jpg';
-import gitImg from './cards/Group 15.jpg';
-import htmlImg from './cards/Group 9.jpg';
-import cssImg from './cards/Group 10.jpg';
+import jsImg from './cards/javascript.png';
+import reactImg from './cards/react.png';
+import reduxImg from './cards/redux.png';
+import adobeImg from './cards/xd.png';
+import gitImg from './cards/git.png';
+import htmlImg from './cards/html.png';
+import cssImg from './cards/css.png';
 import './Skills.css';
 const Skills = () => {
   return (
@@ -14,13 +14,34 @@ const Skills = () => {
         <div className='underline-skills'></div>
       </div>
       <div className='cards'>
-        <img src={jsImg} alt='javaScript'></img>
-        <img src={reactImg} alt='react'></img>
-        <img src={reduxImg} alt='redux'></img>
-        <img src={adobeImg} alt='adobeXD'></img>
-        <img src={gitImg} alt='git'></img>
-        <img src={htmlImg} alt='html'></img>
-        <img src={cssImg} alt='css'></img>
+        <div className='card'>
+          <img className='card-img' src={jsImg} alt='javaScript'></img>
+          <p>JavaScript</p>
+        </div>
+        <div className='card'>
+          <img className='card-img' src={reactImg} alt='react'></img>
+          <p>React</p>
+        </div>
+        <div className='card'>
+          <img className='card-img' src={reduxImg} alt='redux'></img>
+          <p>Redux</p>
+        </div>
+        <div className='card'>
+          <img className='card-img' src={adobeImg} alt='adobeXD'></img>
+          <p>Adobe XD</p>
+        </div>
+        <div className='card'>
+          <img className='card-img' src={gitImg} alt='git'></img>
+          <p>Git & Githhub</p>
+        </div>
+        <div className='card'>
+          <img className='card-img' src={htmlImg} alt='html'></img>
+          <p>HTML</p>
+        </div>
+        <div className='card'>
+          <img className='card-img' src={cssImg} alt='css'></img>
+          <p>CSS</p>
+        </div>
       </div>
     </div>
   );

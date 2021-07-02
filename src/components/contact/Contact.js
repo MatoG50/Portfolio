@@ -30,10 +30,16 @@ const Contact = () => {
             Nairobi, Kenya
           </p>
 
-          <Link>
+          <Link
+            to={{ pathname: 'https://twitter.com/matogithinji' }}
+            target='_blank'
+          >
             <img id='twitter' src={twitter} alt='twitter'></img>
           </Link>
-          <Link>
+          <Link
+            to={{ pathname: 'https://www.linkedin.com/in/martin-githinji-k/' }}
+            target='_blank'
+          >
             <img id='linkedIn' src={linkedIn} alt='linkedIn'></img>
           </Link>
         </div>
