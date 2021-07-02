@@ -1,0 +1,63 @@
+.port-section {
+  width: 100%;
+  height: 2244px;
+  background-color: #303131;
+}
+.port-image {
+  width: 910.6px;
+  height: 457px;
+  object-fit: contain;
+  margin-left: 277px;
+  margin-bottom: 60px;
+}
+.port-card {
+  display: flex;
+}
+.description {
+  margin-left: 33.4px;
+  margin-top: 85px;
+}
+.description h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+}
+.p-desc {
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
+.port-btns {
+  margin-top: 20px;
+}
+.git-btn,
+.web-btn {
+  width: 124px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.git-btn {
+  background-color: #feb633;
+  border: none;
+  color: white;
+  margin-right: 33px;
+}
+.web-btn {
+  border: solid 2px #feb633;
+  color: #feb633;
+  background-color: #303131;
+}
+.mobi-images-div {
+  margin-left: 277px;
+  width: 910.6px;
+  height: 457px;
+}
+.mobi-img {
+  width: 212.8px;
+  height: 457px;
+  margin-right: 90px;
+  object-fit: contain;
+}
