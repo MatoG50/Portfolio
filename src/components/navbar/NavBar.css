@@ -40,29 +40,50 @@ ul li a:hover {
 -------------------------------------- */
 @media only screen and (max-width: 1440px) {
   .name {
-    margin-left: auto;
+    margin-left: 100px;
+    margin-right: 600px;
   }
 }
 
 /* -----------------------------------------
       ------------Small laptops---------------
       ----------------------------------------- */
-/* @media only screen and (max-width: 1200px) {
-} */
+@media only screen and (max-width: 1200px) {
+  .name {
+    margin-right: 200px;
+  }
+}
 
 /* -----------------------------------------
       ------------Tablets---------------
       ----------------------------------------- */
-/* 
+
 @media only screen and (max-width: 768px) {
-} */
+  .name {
+    margin-right: 60px;
+    margin-left: 20px;
+  }
+}
 
 /* -----------------------------------------
       ------------MOBILE DEVICES---------------
       ----------------------------------------- */
 
-/* @media only screen and (max-width: 480px) {
-} */
+@media only screen and (max-width: 480px) {
+  .name {
+    margin-left: 2px;
+    margin-right: 10px;
+  }
+  u li a {
+    font-size: 12px;
+  }
+  u li {
+    margin-right: 10px;
+  }
+  .name p {
+    display: none;
+  }
+}
 
 /*----SMALL MOBILE DEVICES------*/
 

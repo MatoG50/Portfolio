@@ -3,6 +3,7 @@
   height: 794px;
   background-color: #2b2c2c;
   display: flex;
+  flex-wrap: wrap;
 }
 .info {
   margin: 256px 64px 0 277px;
@@ -42,31 +43,71 @@
 /* ----------------------------------
 --------Big Laptop-------------------
 -------------------------------------- */
-/* @media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
   .info {
     margin-left: auto;
+    margin-right: auto;
   }
-} */
+}
 
 /* -----------------------------------------
       ------------Small laptops---------------
       ----------------------------------------- */
-/* @media only screen and (max-width: 1200px) {
-} */
+@media only screen and (max-width: 1200px) {
+  .info h1 {
+    font-size: 56px;
+  }
+  .info h2 {
+    font-size: 24px;
+  }
+  .info {
+    margin-left: 10px;
+  }
+  .mgk {
+    width: 500px;
+    height: 594px;
+    margin-top: 24px;
+  }
+  #home {
+    height: 618px;
+  }
+}
 
 /* -----------------------------------------
       ------------Tablets---------------
       ----------------------------------------- */
-/* 
+
 @media only screen and (max-width: 768px) {
-} */
+  .info h1 {
+    font-size: 40px;
+  }
+  .info h2 {
+    font-size: 20px;
+  }
+  .mgk {
+    width: 350px;
+    height: 450px;
+    margin-top: 50px;
+  }
+  #home {
+    height: 500px;
+  }
+}
 
 /* -----------------------------------------
       ------------MOBILE DEVICES---------------
       ----------------------------------------- */
 
-/* @media only screen and (max-width: 480px) {
-} */
+@media only screen and (max-width: 480px) {
+  .info {
+    margin-top: 10px;
+    order: 1;
+  }
+  #home {
+    justify-content: center;
+    height: 800px;
+  }
+}
 
 /*----SMALL MOBILE DEVICES------*/
 

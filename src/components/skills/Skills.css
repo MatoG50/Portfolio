@@ -54,3 +54,74 @@
   text-align: center;
   margin-top: 10px;
 }
+
+/* ---------Media Queries----------------- */
+
+/* ----------------------------------
+--------Big Laptop-------------------
+-------------------------------------- */
+@media only screen and (max-width: 1440px) {
+  .cards {
+    margin-left: 150px;
+  }
+  .card {
+    margin-right: 10px;
+  }
+  .card-img {
+    width: 180px;
+    height: 120px;
+  }
+}
+
+/* -----------------------------------------
+      ------------Small laptops---------------
+      ----------------------------------------- */
+@media only screen and (max-width: 1200px) {
+  .cards {
+    margin-left: 10px;
+  }
+  .card {
+    margin-right: 10px;
+  }
+  #skills {
+    height: 880px;
+  }
+}
+
+/* -----------------------------------------
+      ------------Tablets---------------
+      ----------------------------------------- */
+/* 
+@media only screen and (max-width: 768px) {
+ 
+} */
+
+/* -----------------------------------------
+      ------------MOBILE DEVICES---------------
+      ----------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+  .cards {
+    justify-content: center;
+  }
+  .card-img {
+    width: 100px;
+    height: 80px;
+  }
+  #skills {
+    height: 700px;
+  }
+  .card {
+    width: 150px;
+    height: 120px;
+    margin-bottom: 8px;
+  }
+}
+
+/*----SMALL MOBILE DEVICES------*/
+
+@media only screen and (max-width: 320px) {
+  #skills {
+    height: 1000px;
+  }
+}

@@ -111,7 +111,6 @@ const Portfolio = () => {
             <img src={mobiImg3} alt='mobi-2' className='mobi-img'></img>
             <img src={mobiImg1} alt='mobi-3' className='mobi-img'></img>
           </div>
-
           <div className='description'>
             <h2>UI/UX Mobile App</h2>
             <p className='p-desc'>
