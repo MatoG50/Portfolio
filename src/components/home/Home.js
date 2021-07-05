@@ -7,7 +7,9 @@ const Home = () => {
       <div className='info'>
         <h1>Martin Githinji</h1>
         <h2>Front-end Developer & UI/UX Designer</h2>
-        <button className='hire-btn'>Hire Me</button>
+        <a href='#contact' className='hire-btn'>
+          Hire Me
+        </a>
       </div>
 
       <img className='mgk' src={image} alt='Martin'></img>

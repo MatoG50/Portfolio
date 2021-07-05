@@ -16,7 +16,9 @@ const About = () => {
           design.
         </p>
         <div className='btns'>
-          <button className='port-btn'>View Projects</button>
+          <a href='#portfolio-section' className='port-btn'>
+            View Projects
+          </a>
           <Link
             to={{
               pathname:

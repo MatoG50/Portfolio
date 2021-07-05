@@ -35,11 +35,13 @@
 }
 .port-btn,
 .cv-btn {
-  width: 243px;
-  height: 79px;
   border-radius: 4px;
   font-size: 24px;
   font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+
+  padding: 20px;
 }
 .port-btn {
   background-color: #feb633;
@@ -52,7 +54,4 @@
   border: solid 2px #feb633;
   color: #feb633;
   background-color: #303131;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 22px;
 }

@@ -22,14 +22,53 @@
 .hire-btn {
   width: 200px;
   height: 65px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   border-radius: 4px;
   background-color: #feb633;
   border: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
 }
 .mgk {
   width: 638px;
   height: 794px;
 }
+
+/* ---------Media Queries----------------- */
+
+/* ----------------------------------
+--------Big Laptop-------------------
+-------------------------------------- */
+/* @media only screen and (max-width: 1440px) {
+  .info {
+    margin-left: auto;
+  }
+} */
+
+/* -----------------------------------------
+      ------------Small laptops---------------
+      ----------------------------------------- */
+/* @media only screen and (max-width: 1200px) {
+} */
+
+/* -----------------------------------------
+      ------------Tablets---------------
+      ----------------------------------------- */
+/* 
+@media only screen and (max-width: 768px) {
+} */
+
+/* -----------------------------------------
+      ------------MOBILE DEVICES---------------
+      ----------------------------------------- */
+
+/* @media only screen and (max-width: 480px) {
+} */
+
+/*----SMALL MOBILE DEVICES------*/
+
+/* @media only screen and (max-width: 320px) {
+} */

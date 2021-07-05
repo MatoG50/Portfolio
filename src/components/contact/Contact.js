@@ -11,8 +11,14 @@ const Contact = () => {
       </div>
       <div className='contact-info'>
         <form action='https://formspree.io/f/xwkaqyyk' method='POST'>
-          <input id='name-inp' type='text' placeholder='Name' />
-          <input id='em-inp' type='email' name='_replyto' placeholder='Email' />
+          <input id='name-inp' type='text' placeholder='Name' required />
+          <input
+            id='em-inp'
+            type='email'
+            name='_replyto'
+            placeholder='Email'
+            required
+          />
           <br />
           <input
             id='mes-inp'
