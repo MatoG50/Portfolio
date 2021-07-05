@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
@@ -12,25 +12,12 @@ function App() {
     <Router>
       <div className='App'>
         <NavBar />
-
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route>
-          <About />
-        </Route>
-        <Route>
-          <Skills />
-        </Route>
-        <Route>
-          <Portfolio />
-        </Route>
-        <Route>
-          <Contact />
-        </Route>
-        <Route>
-          <Footer />
-        </Route>
+        <Home />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Contact />
+        <Footer />
       </div>
     </Router>
   );

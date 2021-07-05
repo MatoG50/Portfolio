@@ -3,7 +3,7 @@ import image from './MGK-image.png';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div id='home'>
       <div className='info'>
         <h1>Martin Githinji</h1>
         <h2>Front-end Developer & UI/UX Designer</h2>

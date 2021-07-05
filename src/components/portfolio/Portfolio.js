@@ -5,11 +5,12 @@ import xdImg from './portImages/xd pc window.png';
 import mobiImg1 from './portImages/mobile app.png';
 import mobiImg2 from './portImages/Mob app A.png';
 import mobiImg3 from './portImages/mob app b.png';
+import { Link } from 'react-router-dom';
 const Portfolio = () => {
   return (
-    <div className='port-section'>
+    <div id='portfolio-section'>
       <div className='skills-name'>
-        <h1 className='section-title'>Portfolio</h1>
+        <h1 className='section-title'>Projects</h1>
         <div className='underline-skills'></div>
       </div>
       <div className='container'>
@@ -29,8 +30,20 @@ const Portfolio = () => {
               <br /> HTML and CSS.
             </p>
             <div className='port-btns'>
-              <button className='git-btn'>GitHub</button>
-              <button className='web-btn'>Website</button>
+              <Link
+                to={{ pathname: 'https://github.com/MatoG50/Lockstore' }}
+                target='_blank'
+                className='git-btn'
+              >
+                GitHub
+              </Link>
+              <Link
+                to={{ pathname: 'https://lockstore.netlify.app/' }}
+                target='_blank'
+                className='web-btn'
+              >
+                Website
+              </Link>
             </div>
           </div>
         </div>
@@ -48,8 +61,20 @@ const Portfolio = () => {
               <br /> Redux for state management.
             </p>
             <div className='port-btns'>
-              <button className='git-btn'>GitHub</button>
-              <button className='web-btn'>Website</button>
+              <Link
+                to={{ pathname: 'https://github.com/MatoG50/Lockstore-React' }}
+                target='_blank'
+                className='git-btn'
+              >
+                GitHub
+              </Link>
+              <Link
+                to={{ pathname: 'https://lockstore-react.netlify.app/' }}
+                target='_blank'
+                className='web-btn'
+              >
+                Website
+              </Link>
             </div>
           </div>
         </div>
@@ -67,7 +92,16 @@ const Portfolio = () => {
               <br /> was designed using Adobe XD.
             </p>
             <div className='port-btns'>
-              <button className='web-btn'>Website</button>
+              <Link
+                to={{
+                  pathname:
+                    'https://xd.adobe.com/view/be195c54-293e-40f8-967f-7945172bc415-eb4a/ ',
+                }}
+                target='_blank'
+                className='web-btn'
+              >
+                Website
+              </Link>
             </div>
           </div>
         </div>
@@ -85,7 +119,16 @@ const Portfolio = () => {
               <br /> website designed using Adobe XD.
             </p>
             <div className='port-btns'>
-              <button className='web-btn'>Website</button>
+              <Link
+                to={{
+                  pathname:
+                    'https://xd.adobe.com/view/be195c54-293e-40f8-967f-7945172bc415-eb4a/ ',
+                }}
+                target='_blank'
+                className='web-btn'
+              >
+                Website
+              </Link>
             </div>
           </div>
         </div>

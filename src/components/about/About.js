@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import './About.css';
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about'>
       <div className='abt'>
         <h2>About Me</h2>
         <div className='underline'></div>
@@ -15,8 +16,17 @@ const About = () => {
           design.
         </p>
         <div className='btns'>
-          <button className='port-btn'>View Portfolio</button>
-          <button className='cv-btn'>Download CV</button>
+          <button className='port-btn'>View Projects</button>
+          <Link
+            to={{
+              pathname:
+                'https://drive.google.com/file/d/1ry9CAFepV1VgtPc9k9CWEADlQa6CCUFJ/view?usp=sharing',
+            }}
+            target='_blank'
+            className='cv-btn'
+          >
+            Download CV
+          </Link>
         </div>
       </div>
     </div>

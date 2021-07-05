@@ -29,6 +29,6 @@ ul li a {
   font-size: 24px;
   font-weight: bold;
 }
-.active-nav {
+ul li a:hover {
   color: #fbd214;
 }

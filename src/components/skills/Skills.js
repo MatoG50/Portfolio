@@ -8,7 +8,7 @@ import cssImg from './cards/css.png';
 import './Skills.css';
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div id='skills'>
       <div className='skills-name'>
         <h1 className='section-title'>Skills</h1>
         <div className='underline-skills'></div>
