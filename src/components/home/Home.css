@@ -111,5 +111,12 @@
 
 /*----SMALL MOBILE DEVICES------*/
 
-/* @media only screen and (max-width: 320px) {
-} */
+@media only screen and (max-width: 375px) {
+  .mgk {
+    width: 290px;
+    height: 400px;
+  }
+  .info {
+    margin-top: 5px;
+  }
+}

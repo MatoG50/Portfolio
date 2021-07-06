@@ -1,6 +1,6 @@
 #contact {
   width: 100%;
-  height: 622px;
+  height: 522px;
   background-color: #2b2c2c;
 }
 .contact-info {
@@ -83,7 +83,7 @@ label {
 -------------------------------------- */
 @media only screen and (max-width: 1440px) {
   form {
-    margin-left: 150px;
+    margin-left: 100px;
   }
 }
 
@@ -145,11 +145,27 @@ label {
 
 @media only screen and (max-width: 480px) {
   #contact {
-    height: 1000px;
+    height: 800px;
+  }
+  #mes-inp {
+    margin-right: 0;
+  }
+  .my-info {
+    margin-left: 114px;
+    margin-top: 40px;
   }
 }
 
 /*----SMALL MOBILE DEVICES------*/
 
-/* @media only screen and (max-width: 320px) {
-} */
+@media only screen and (max-width: 375px) {
+  #mes-inp {
+    width: 290px;
+  }
+  .send-btn {
+    margin-right: 20px;
+  }
+  .my-info {
+    margin-left: 70px;
+  }
+}

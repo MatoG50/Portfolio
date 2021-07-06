@@ -111,20 +111,20 @@ const Portfolio = () => {
             <img src={mobiImg3} alt='mobi-2' className='mobi-img'></img>
             <img src={mobiImg1} alt='mobi-3' className='mobi-img'></img>
           </div>
-          <div className='description'>
+          <div className='mobi-description'>
             <h2>UI/UX Mobile App</h2>
-            <p className='p-desc'>
+            <p className='mobi-p-desc'>
               This is the mobile app for the freelancing
               <br /> website designed using Adobe XD.
             </p>
-            <div className='port-btns'>
+            <div className='mobi-port-btns'>
               <Link
                 to={{
                   pathname:
                     'https://xd.adobe.com/view/be195c54-293e-40f8-967f-7945172bc415-eb4a/ ',
                 }}
                 target='_blank'
-                className='web-btn'
+                className='mobi-web-btn'
               >
                 Website
               </Link>

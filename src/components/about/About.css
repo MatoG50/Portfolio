@@ -110,10 +110,14 @@
   }
   .port-btn {
     margin-right: 10px;
+    margin-left: 69px;
   }
 }
 
 /*----SMALL MOBILE DEVICES------*/
 
-/* @media only screen and (max-width: 320px) {
-} */
+@media only screen and (max-width: 375px) {
+  .port-btn {
+    margin-left: 10px;
+  }
+}

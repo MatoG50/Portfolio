@@ -14,28 +14,33 @@
   display: flex;
   flex-wrap: wrap;
 }
+.mobi-description,
 .description {
   margin-left: 33.4px;
   margin-top: 85px;
 }
+.mobi-description h2,
 .description h2 {
   font-size: 32px;
   font-weight: bold;
   color: white;
   margin-bottom: 16px;
 }
-.p-desc {
+.p-desc,
+.mobi-p-desc {
   font-size: 16px;
   color: white;
   line-height: 1.5;
+}
+.mobi-p-desc {
+  margin-bottom: 20px;
 }
 .port-btns {
   margin-top: 20px;
 }
 .git-btn,
-.web-btn {
-  width: 124px;
-  height: 50px;
+.web-btn,
+.mobi-web-btn {
   border-radius: 4px;
   font-size: 16px;
   font-weight: bold;
@@ -43,13 +48,15 @@
   text-align: center;
   padding: 10px;
 }
+
 .git-btn {
   background-color: #feb633;
   border: none;
   color: white;
   margin-right: 33px;
 }
-.web-btn {
+.web-btn,
+.mobi-web-btn {
   border: solid 2px #feb633;
   color: #feb633;
   background-color: #303131;
@@ -94,6 +101,9 @@
   #portfolio-section {
     height: 1700px;
   }
+  .mobi-description {
+    margin-left: 10px;
+  }
 }
 
 /* -----------------------------------------
@@ -114,6 +124,13 @@
   #portfolio-section {
     height: 1400px;
   }
+  .mobi-images-div {
+    margin-left: 20px;
+  }
+  .mobi-description {
+    margin-top: 40px;
+    margin-left: 0;
+  }
 }
 
 /* -----------------------------------------
@@ -125,10 +142,12 @@
     width: 300px;
     height: 200px;
   }
-  .description h2 {
+  .description h2,
+  .mobi-description h2 {
     font-size: 24px;
   }
-  .p-desc {
+  .p-desc,
+  .mobi-p-desc {
     font-size: 16px;
   }
   .description {
@@ -155,21 +174,33 @@
     margin-right: auto;
     margin-bottom: 5px;
   }
-  .description {
+  .description,
+  .mobi-description {
     text-align: center;
     margin: 10px auto 45px auto;
   }
-  #portfoio-section {
-    height: 5000px;
-  }
+
   .mobi-images-div {
+    margin-left: 30px;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
+  }
+  #portfolio-section {
+    height: 1900px;
   }
 }
 
 /*----SMALL MOBILE DEVICES------*/
 
-/* @media only screen and (max-width: 320px) {
-} */
+@media only screen and (max-width: 375px) {
+  .mobi-images-div {
+    margin-left: 18px;
+    height: 270px;
+  }
+  .mobi-img {
+    margin-right: 5px;
+  }
+  #portfolio-section {
+    height: 2090px;
+  }
+}
