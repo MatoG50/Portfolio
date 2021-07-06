@@ -1,6 +1,6 @@
 #contact {
   width: 100%;
-  height: 522px;
+  min-height: 522px;
   background-color: #2b2c2c;
 }
 .contact-info {
@@ -25,7 +25,7 @@ label {
 #mes-inp {
   width: 766px;
   height: 172px;
-  margin: 0 271px 8px 0;
+  margin: 0 0 8px 0;
   /* position: relative; */
 }
 #name-inp,
@@ -41,7 +41,7 @@ label {
 .send-btn {
   width: 200px;
   height: 65px;
-  margin: 34px 206px 0 0;
+  margin-top: 34px;
   border-radius: 4px;
   background-color: #feb633;
   font-size: 24px;
@@ -65,15 +65,21 @@ label {
   text-align: center;
   margin-bottom: 16px;
 }
-
+.socials {
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-info {
+  margin-left: 250px;
+}
+#twitter {
+  margin-right: 30px;
+}
 #twitter,
 #linkedIn {
   width: 30px;
   height: 20px;
-}
-#twitter {
-  margin-left: 55px;
-  margin-right: 30px;
 }
 
 /* ---------Media Queries----------------- */
@@ -81,7 +87,7 @@ label {
 /* ----------------------------------
 --------Big Laptop-------------------
 -------------------------------------- */
-@media only screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
   form {
     margin-left: 100px;
   }
@@ -90,7 +96,7 @@ label {
 /* -----------------------------------------
       ------------Small laptops---------------
       ----------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   form {
     margin-left: 10px;
   }
@@ -109,7 +115,7 @@ label {
       ------------Tablets---------------
       ----------------------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   #name-inp,
   #em-inp {
     width: 170px;
@@ -135,7 +141,7 @@ label {
     height: 60px;
   }
   #contact {
-    height: 500px;
+    min-height: 500px;
   }
 }
 
@@ -143,29 +149,31 @@ label {
       ------------MOBILE DEVICES---------------
       ----------------------------------------- */
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 500px) {
   #contact {
-    height: 800px;
+    min-height: 800px;
   }
   #mes-inp {
     margin-right: 0;
   }
   .my-info {
-    margin-left: 114px;
-    margin-top: 40px;
+    margin-left: auto;
+    margin-top: 45px;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 /*----SMALL MOBILE DEVICES------*/
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
   #mes-inp {
     width: 290px;
-  }
-  .send-btn {
-    margin-right: 20px;
-  }
-  .my-info {
-    margin-left: 70px;
   }
 }

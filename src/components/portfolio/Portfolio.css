@@ -1,6 +1,6 @@
 #portfolio-section {
   width: 100%;
-  height: 2244px;
+  min-height: 2244px;
   background-color: #303131;
 }
 .port-image {
@@ -66,12 +66,12 @@
   width: 910.6px;
   height: 457px;
   display: flex;
-  flex-wrap: wrap;
 }
 .mobi-img {
   width: 212.8px;
   height: 457px;
-  margin-right: 90px;
+  margin-right: auto;
+  margin-left: auto;
   object-fit: contain;
 }
 
@@ -80,7 +80,7 @@
 /* ----------------------------------
 --------Big Laptop-------------------
 -------------------------------------- */
-@media only screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .port-image {
     width: 600px;
     height: 300px;
@@ -99,7 +99,7 @@
     width: 50%;
   }
   #portfolio-section {
-    height: 1700px;
+    min-height: 1700px;
   }
   .mobi-description {
     margin-left: 10px;
@@ -109,7 +109,7 @@
 /* -----------------------------------------
       ------------Small laptops---------------
       ----------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .port-image {
     margin-left: 10px;
   }
@@ -122,7 +122,7 @@
     height: 300px;
   }
   #portfolio-section {
-    height: 1400px;
+    min-height: 1400px;
   }
   .mobi-images-div {
     margin-left: 20px;
@@ -137,7 +137,7 @@
       ------------Tablets---------------
       ----------------------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .port-image {
     width: 300px;
     height: 200px;
@@ -160,7 +160,7 @@
     width: 90px;
   }
   #portfolio-section {
-    height: 1200px;
+    min-height: 1200px;
   }
 }
 
@@ -168,7 +168,7 @@
       ------------MOBILE DEVICES---------------
       ----------------------------------------- */
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 500px) {
   .port-image {
     margin-left: auto;
     margin-right: auto;
@@ -181,26 +181,30 @@
   }
 
   .mobi-images-div {
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
     height: 300px;
   }
   #portfolio-section {
-    height: 1900px;
+    min-height: 1900px;
   }
 }
 
 /*----SMALL MOBILE DEVICES------*/
 
-@media only screen and (max-width: 375px) {
-  .mobi-images-div {
-    margin-left: 18px;
-    height: 270px;
-  }
+@media (max-width: 375px) {
   .mobi-img {
     margin-right: 5px;
   }
+
   #portfolio-section {
-    height: 2090px;
+    min-height: 2090px;
   }
 }
+/* 
+@media only screen and (max-width: 320px) {
+  .mobi-img {
+    width: 60px;
+  }
+} */

@@ -42,19 +42,22 @@ const Contact = () => {
             <br />
             Nairobi, Kenya
           </p>
-
-          <Link
-            to={{ pathname: 'https://twitter.com/matogithinji' }}
-            target='_blank'
-          >
-            <img id='twitter' src={twitter} alt='twitter'></img>
-          </Link>
-          <Link
-            to={{ pathname: 'https://www.linkedin.com/in/martin-githinji-k/' }}
-            target='_blank'
-          >
-            <img id='linkedIn' src={linkedIn} alt='linkedIn'></img>
-          </Link>
+          <div className='socials'>
+            <Link
+              to={{ pathname: 'https://twitter.com/matogithinji' }}
+              target='_blank'
+            >
+              <img id='twitter' src={twitter} alt='twitter'></img>
+            </Link>
+            <Link
+              to={{
+                pathname: 'https://www.linkedin.com/in/martin-githinji-k/',
+              }}
+              target='_blank'
+            >
+              <img id='linkedIn' src={linkedIn} alt='linkedIn'></img>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
