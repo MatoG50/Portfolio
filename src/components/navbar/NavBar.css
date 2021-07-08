@@ -71,19 +71,29 @@ a:hover {
 
 @media (max-width: 500px) {
   .name {
-    margin-left: 2px;
-    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .name p {
     font-size: 24px;
-    margin-right: 22px;
+    text-align: center;
   }
   li {
     margin-right: 10px;
     margin-left: 10px;
   }
   a {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  .nav-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    margin-top: 5px;
   }
 }
 
@@ -91,16 +101,9 @@ a:hover {
 
 @media (max-width: 375px) {
   .name p {
-    margin-right: 15px;
     font-size: 18px;
   }
   a {
-    font-size: 10px;
-  }
-  li {
-    margin-right: 5px;
-  }
-  ul {
-    margin-top: 25px;
+    font-size: 12px;
   }
 }

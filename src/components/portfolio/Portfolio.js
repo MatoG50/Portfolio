@@ -33,6 +33,7 @@ const Portfolio = () => {
               <Link
                 to={{ pathname: 'https://github.com/MatoG50/Lockstore' }}
                 target='_blank'
+                rel='noopener noreferrer'
                 className='git-btn'
               >
                 GitHub
@@ -40,6 +41,7 @@ const Portfolio = () => {
               <Link
                 to={{ pathname: 'https://lockstore.netlify.app/' }}
                 target='_blank'
+                rel='noopener noreferrer'
                 className='web-btn'
               >
                 Website
@@ -51,7 +53,7 @@ const Portfolio = () => {
           <img
             className='port-image'
             src={lockTwo}
-            alt='Lockstore-version-1'
+            alt='Lockstore-version-2'
           ></img>
           <div className='description'>
             <h2>Lockstore - Version 2</h2>
@@ -64,6 +66,7 @@ const Portfolio = () => {
               <Link
                 to={{ pathname: 'https://github.com/MatoG50/Lockstore-React' }}
                 target='_blank'
+                rel='noopener noreferrer'
                 className='git-btn'
               >
                 GitHub
@@ -71,6 +74,7 @@ const Portfolio = () => {
               <Link
                 to={{ pathname: 'https://lockstore-react.netlify.app/' }}
                 target='_blank'
+                rel='noopener noreferrer'
                 className='web-btn'
               >
                 Website
@@ -98,6 +102,7 @@ const Portfolio = () => {
                     'https://xd.adobe.com/view/be195c54-293e-40f8-967f-7945172bc415-eb4a/ ',
                 }}
                 target='_blank'
+                rel='noopener noreferrer'
                 className='web-btn'
               >
                 Website
@@ -124,6 +129,7 @@ const Portfolio = () => {
                     'https://xd.adobe.com/view/be195c54-293e-40f8-967f-7945172bc415-eb4a/ ',
                 }}
                 target='_blank'
+                rel='noopener noreferrer'
                 className='mobi-web-btn'
               >
                 Website

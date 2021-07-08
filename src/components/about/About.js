@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import './About.css';
+import resume from './resume/MARTIN_GITHINJI.pdf';
 const About = () => {
   return (
     <div id='about'>
@@ -20,16 +20,13 @@ const About = () => {
             <a href='#portfolio-section' className='port-btn'>
               View Projects
             </a>
-            <Link
-              to={{
-                pathname:
-                  'https://drive.google.com/file/d/1ry9CAFepV1VgtPc9k9CWEADlQa6CCUFJ/view?usp=sharing',
-              }}
-              target='_blank'
+            <a
+              href={resume}
+              download='Martin_Githinji_Resume.pdf'
               className='cv-btn'
             >
               Download CV
-            </Link>
+            </a>
           </div>
         </div>
       </div>
